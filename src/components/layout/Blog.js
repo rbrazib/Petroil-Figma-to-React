@@ -8,9 +8,9 @@ const Blog = () => {
     <section className="bg-[#F0F0F0] pt-28 pb-40">
       <Container>
         <Flex className="flex justify-between">
-          <div 
-        data-aos="fade-right"
-          data-aos-duration="2000"
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
             className="w-[339px] group"
             style={{
               background: "url(assets/blog1.png)",
@@ -31,8 +31,8 @@ const Blog = () => {
             </div>
           </div>
           <div
-           data-aos="zoom-in"
-           data-aos-duration="2000"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
             className="w-[339px] group"
             style={{
               background: "url(assets/blog3.png)",
@@ -54,7 +54,7 @@ const Blog = () => {
           </div>
           <div
             data-aos="fade-left"
-           data-aos-duration="2000"
+            data-aos-duration="2000"
             className="w-[339px] group"
             style={{
               background: "url(assets/blog2.png)",
