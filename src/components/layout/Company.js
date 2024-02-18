@@ -8,12 +8,14 @@ const Company = () => {
     <section className="bg-[#F0F0F0] py-32">
       <Container>
         <Flex className="flex">
-          <div className="bg-primary w-2/5">
+          <div className="bg-primary w-2/5" data-aos="fade-right"  data-aos-duration="2000">
             <h2 className="py-[100px] px-20 text-white text-[36px] font-pop font-bold">
               Learn more about our company
             </h2>
           </div>
           <div
+         data-aos="fade-left"
+          data-aos-duration="2000"
             className="w-3/5 flex justify-center items-center"
             style={{
               background: "url(assets/company.png)",
